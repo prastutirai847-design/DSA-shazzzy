@@ -3,9 +3,11 @@ public:
     int maxAbsoluteSum(vector<int>& nums) {
         int bestend=nums[0],worstend=nums[0];int ans=nums[0];
        for (int i = 1; i <nums.size();  i ++ ){
-        
-         bestend=max(nums[i],max(bestend+nums[i],nums[i]));
-        worstend=min(nums[i],min(worstend+nums[i],nums[i]));
+        int v1=bestend+nums[i];
+        int v2=worstend+nums[i];
+        int v3=nums[i];
+         bestend=max(v3,v1);
+        worstend=min(v3,v2);
        
         ans=max(ans,max(   abs(worstend),abs(bestend)));
        
