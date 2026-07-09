@@ -11,35 +11,42 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
+          if(head == NULL || head->next == NULL)
+    return true;
 
-      ListNode* fast=head;
-      ListNode* slow=head;
-      while(fast->next!=NULL && fast->next->next!=NULL){
-        slow=slow->next;
-        fast=fast->next;
-        fast=fast->next;
-      }  
-    
-      ListNode*curr=slow->next;
-      ListNode*fut=NULL;
-      ListNode* prev=NULL;
-      while(curr){
-        fut=curr->next;
-        curr->next=prev;
-        prev=curr;
-        curr=fut;
-
-      }
-      ListNode* first=head;
-      ListNode* sec=prev  ;//head of reversed
-      while(first!=NULL && sec!=NULL){
-        if(first->val==sec->val){
-            first=first->next;
-            sec=sec->next;
+        ListNode* fast=head;
+        ListNode* slow=head;
+        while(fast!=NULL && fast->next!=NULL){
+            slow=slow->next;
+            fast=fast->next;
+           fast= fast->next;
+          
         }
-        else return false;
-      }
-    return true ;
-
+        if(fast != NULL){
+    // Odd length hai
+    slow = slow->next;
+}
+      
+       ListNode* cur= slow;
+       ListNode* fut=NULL;
+       ListNode* prev=NULL;
+       while(cur){
+        fut=cur->next;
+        cur->next=prev;
+        prev=cur;
+        cur=fut;
+       }
+       ListNode* first=head;
+       ListNode* sec=prev;
+       
+       while(sec){
+        if(first->val!=sec->val){
+            return false;
+             }  
+        first=first->next;
+        sec=sec->next;
+   
+       }
+       return true;   
     }
 };
