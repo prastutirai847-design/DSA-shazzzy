@@ -11,7 +11,7 @@ public:
       while(end<s2.size()){
         have[s2[end]]++;
         end++;
-        while(end - start >= s1.size()){
+        while(end - start== s1.size()){
              if(need==have)
         return true;
             have[s2[start]]--;
