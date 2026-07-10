@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxSubarraySumCircular(vector<int>& nums) {
-        int sum =nums[0],minsum=nums[0]; int sec=0;int dekhle=0,bestend=nums[0],ansnormal=nums[0];
+        int sum =nums[0],minsum=nums[0]; int bestend=nums[0],ansnormal=nums[0];
        for(int i =1; i<nums.size();i++){
         int v1=bestend+nums[i];
         int v2=nums[i];
