@@ -9,6 +9,8 @@ public:
        ansnormal=max(ansnormal,bestend);
        
        }
+        if(ansnormal<0)
+         return ansnormal;
        int worstend=nums[0];int circularmax=0;
       for(int i =1; i<nums.size();i++){
        sum+=nums[i];
@@ -23,8 +25,7 @@ public:
 
        if(ansnormal>circularmax)
        return ansnormal;
-       else if(ansnormal<0)
-         return ansnormal;
+       
        else 
        return circularmax;
      
