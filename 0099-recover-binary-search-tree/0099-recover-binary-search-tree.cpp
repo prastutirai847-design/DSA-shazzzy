@@ -10,48 +10,48 @@
  * };
  */
 class Solution {
-public:
-TreeNode* prev=NULL;int galat=0;
+public: int gala=0;
+TreeNode* prev=NULL;
 TreeNode* g1first=NULL;
+TreeNode* g2first=NULL;
 TreeNode* g1sec=NULL;
 TreeNode* g2sec=NULL;
-TreeNode* g2first=NULL;
 void fun(TreeNode* root){
     if(root==NULL)
     return ;
     fun(root->left);
     if(prev==NULL)
-   prev= root;
-   else{
-    if(root->val<prev->val){
-        if(galat==0){
-            g1first=prev;
-            g1sec=root;
-            galat++;
-
-        }
-        else{
-            g2first=prev;
-            g2sec=root;
-            galat++;
-        }
-
-    }
     prev=root;
-   }
-   fun(root->right);
+    else{
+        if(root->val<prev->val){
+            if(gala==0){
+                g1first=prev;
+                g1sec=root;
+                gala++;
+            }
+            else{
+                 g2first=prev;
+                g2sec=root;
+                gala++;
 
+            }
+            
+        }
+        prev=root;
+       
+        
+    }
+     fun(root->right);
 
 }
-
     void recoverTree(TreeNode* root) {
         fun(root);
-        if(galat==1){
+        if(gala==1){
             swap(g1first->val,g1sec->val);
         }
         else{
             swap(g1first->val,g2sec->val);
         }
-        
+        return;
     }
 };
