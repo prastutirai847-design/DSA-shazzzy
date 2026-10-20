@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0004-median-of-two-sorted-arrays) |
 | [0099-recover-binary-search-tree](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0099-recover-binary-search-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0700-search-in-a-binary-search-tree) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0004-median-of-two-sorted-arrays) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Sorting
@@ -45,4 +47,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3718-smallest-missing-multiple-of-k](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/3718-smallest-missing-multiple-of-k) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
