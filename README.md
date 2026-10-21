@@ -54,9 +54,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0991-broken-calculator](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0991-broken-calculator) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/3723-maximize-sum-of-squares-of-digits) |
 ## Greedy
 |  |
 | ------- |
+| [0991-broken-calculator](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0991-broken-calculator) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/3723-maximize-sum-of-squares-of-digits) |
 <!---LeetCode Topics End-->
