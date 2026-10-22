@@ -1,32 +1,28 @@
 class Solution {
 public:
     int brokenCalc(int startValue, int target) {
-        int count=0;
-        while (target != startValue) {
-    
-        if(startValue==target)
-        return count;
-        else if(target>startValue){
-            if(target%2==0){
-             target= target/2;
-             count++;
-
+        int cnt=0;
+          if(startValue==target)
+            return cnt;
+        while(startValue!=target){
+            if(target>startValue){
+                if(target%2==0){
+                    target=target/2;
+                    cnt++;
+                }
+                else{
+                    target=target+1;
+                    cnt++;
+                }
             }
             else{
-                target=target+1;
-                count++;
+                cnt+=startValue-target;
+                break;//yr nhi smjha
             }
-         
-         
-        }
-        else{
           
-               count += startValue - target;
-break;
-            }
-}
-        return count;
-
+          
+        }
+          return cnt;
         
     }
 };
