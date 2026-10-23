@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0004-median-of-two-sorted-arrays) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/2089-find-target-indices-after-sorting-array) |
+| [2574-left-and-right-sum-differences](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/2574-left-and-right-sum-differences) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Sorting
 |  |
@@ -61,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0991-broken-calculator](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0991-broken-calculator) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/3723-maximize-sum-of-squares-of-digits) |
+## Prefix Sum
+|  |
+| ------- |
+| [2574-left-and-right-sum-differences](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/2574-left-and-right-sum-differences) |
 <!---LeetCode Topics End-->
