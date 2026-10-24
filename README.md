@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0991-broken-calculator](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/0991-broken-calculator) |
+| [2409-count-days-spent-together](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/2409-count-days-spent-together) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/3723-maximize-sum-of-squares-of-digits) |
 ## Greedy
 |  |
@@ -71,4 +72,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2778-sum-of-squares-of-special-elements](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/2778-sum-of-squares-of-special-elements) |
+## String
+|  |
+| ------- |
+| [2409-count-days-spent-together](https://github.com/prastutirai847-design/DSA-shazzzy/tree/master/2409-count-days-spent-together) |
 <!---LeetCode Topics End-->
